@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "MascarenhasStore.Infra/1.0.0": {
+        "runtime": {
+          "MascarenhasStore.Infra.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MascarenhasStore.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

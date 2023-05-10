@@ -1,0 +1,12 @@
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\bin\Debug\net7.0\MascarenhasStore.Infra.deps.json
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\bin\Debug\net7.0\MascarenhasStore.Infra.dll
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\bin\Debug\net7.0\MascarenhasStore.Infra.pdb
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\MascarenhasStore.Infra.csproj.AssemblyReference.cache
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\MascarenhasStore.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\MascarenhasStore.Infra.AssemblyInfoInputs.cache
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\MascarenhasStore.Infra.AssemblyInfo.cs
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\MascarenhasStore.Infra.csproj.CoreCompileInputs.cache
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\MascarenhasStore.Infra.dll
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\refint\MascarenhasStore.Infra.dll
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\MascarenhasStore.Infra.pdb
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\ref\MascarenhasStore.Infra.dll

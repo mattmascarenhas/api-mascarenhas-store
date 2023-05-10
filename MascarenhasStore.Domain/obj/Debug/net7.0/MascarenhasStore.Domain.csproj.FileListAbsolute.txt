@@ -1,0 +1,12 @@
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\MascarenhasStore.Domain.csproj.AssemblyReference.cache
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\MascarenhasStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\MascarenhasStore.Domain.AssemblyInfoInputs.cache
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\MascarenhasStore.Domain.AssemblyInfo.cs
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\MascarenhasStore.Domain.csproj.CoreCompileInputs.cache
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\bin\Debug\net7.0\MascarenhasStore.Domain.deps.json
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\bin\Debug\net7.0\MascarenhasStore.Domain.dll
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\bin\Debug\net7.0\MascarenhasStore.Domain.pdb
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\MascarenhasStore.Domain.dll
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\refint\MascarenhasStore.Domain.dll
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\MascarenhasStore.Domain.pdb
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\ref\MascarenhasStore.Domain.dll

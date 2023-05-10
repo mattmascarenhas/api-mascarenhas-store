@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MascarenhasStore.Domain",
+    "\\MascarenhasStore.Domain\\StoreContext",
+    "\\MascarenhasStore.Domain\\StoreContext\\Entities"
+  ],
+  "SelectedNode": "\\MascarenhasStore.Domain\\StoreContext\\Entities\\Delivery.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "D9YyT725pCSZANfhb6WqbjL9nEpwE/wdk4QpdIiSLQ8=",
+  "Source": "MascarenhasStore.Api",
+  "BasePath": "_content/MascarenhasStore.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
