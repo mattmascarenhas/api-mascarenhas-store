@@ -1703,13 +1703,24 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "FluentValidator": "2.0.2"
+          "FluentValidator": "2.0.2",
+          "MascarenhasStore.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/MascarenhasStore.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/MascarenhasStore.Domain.dll": {}
+        }
+      },
+      "MascarenhasStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MascarenhasStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MascarenhasStore.Shared.dll": {}
         }
       }
     }
@@ -5787,6 +5798,11 @@
       "type": "project",
       "path": "../MascarenhasStore.Domain/MascarenhasStore.Domain.csproj",
       "msbuildProject": "../MascarenhasStore.Domain/MascarenhasStore.Domain.csproj"
+    },
+    "MascarenhasStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../MascarenhasStore.Shared/MascarenhasStore.Shared.csproj",
+      "msbuildProject": "../MascarenhasStore.Shared/MascarenhasStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -8,7 +8,7 @@ public class UnitTest1 {
     [TestMethod]
     public void TestMethod1() {
         //dados do cliente
-        var name = new Name("Matheus", "Mascarenhas");
+        var name = new Name("", "M");
         var document = new Document("43243242");
         var email = new Email("mattmascarenhaas7@gmail.com");
         var c = new Customer(name, document, email, "999999999");

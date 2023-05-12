@@ -12,13 +12,14 @@ namespace MascarenhasStore.Domain.StoreContext.ValueObjects {
             FirstName = firstName;
             LastName = lastName;
 
-           //teste de validacao do tamanho do nome
-           AddNotifications(new ValidationContract()
-                .Requires()
-                .HasMinLen(FirstName, 3, "FirstName", "O Nome deve conter pelo menos 3 caracteres")
-                .HasMaxLen(FirstName, 30, "FirstName", "O Nome deve conter no máximo 30 caracteres")
-                .HasMinLen(LastName, 3, "LastName", "O Sobrenome deve conter pelo menos 3 caracteres")
-                .HasMaxLen(LastName, 30, "LastName", "O Sobrenome deve conter no máximo 30 caracteres"));
+            ////Validaçao aqui nao necessaria, pois esta sendo usado o FastFailValidator
+            ////teste de validacao do tamanho do nome
+            //AddNotifications(new ValidationContract()
+            //     .Requires()
+            //     .HasMinLen(FirstName, 3, "FirstName", "O Nome deve conter pelo menos 3 caracteres")
+            //     .HasMaxLen(FirstName, 30, "FirstName", "O Nome deve conter no máximo 30 caracteres")
+            //     .HasMinLen(LastName, 3, "LastName", "O Sobrenome deve conter pelo menos 3 caracteres")
+            //     .HasMaxLen(LastName, 30, "LastName", "O Sobrenome deve conter no máximo 30 caracteres"));
         }
 
         public string FirstName { get; private set; }

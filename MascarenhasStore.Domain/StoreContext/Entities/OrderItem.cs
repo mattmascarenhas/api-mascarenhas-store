@@ -10,6 +10,8 @@ namespace MascarenhasStore.Domain.StoreContext.Entities {
 
             if (product.QuantityOnHand < quantity)
                 AddNotification("Quantity", "Produto fora de estoque");
+            //diminuir a quantidade em estoque
+            product.DecreaseQuantity(quantity);
         }
 
         public Product Product { get; private set; }

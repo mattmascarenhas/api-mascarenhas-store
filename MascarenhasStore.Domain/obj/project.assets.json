@@ -1295,6 +1295,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "MascarenhasStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/MascarenhasStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MascarenhasStore.Shared.dll": {}
+        }
       }
     }
   },
@@ -4579,11 +4589,17 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "MascarenhasStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../MascarenhasStore.Shared/MascarenhasStore.Shared.csproj",
+      "msbuildProject": "../MascarenhasStore.Shared/MascarenhasStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "FluentValidator >= 2.0.2"
+      "FluentValidator >= 2.0.2",
+      "MascarenhasStore.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4612,7 +4628,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\CSharp\\MascarenhasStore\\MascarenhasStore.Shared\\MascarenhasStore.Shared.csproj": {
+              "projectPath": "D:\\CSharp\\MascarenhasStore\\MascarenhasStore.Shared\\MascarenhasStore.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

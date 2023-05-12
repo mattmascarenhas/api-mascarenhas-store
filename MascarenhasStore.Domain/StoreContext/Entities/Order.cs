@@ -27,7 +27,7 @@ namespace MascarenhasStore.Domain.StoreContext.Entities
         public EOrderStatus Status { get; private set; }
         //IReadOnlyCollection é tipo um IList que faz apenas leitura, ele nao permite utilizar os metodos do IList
         public IReadOnlyCollection<OrderItem> Items => _items.ToArray();
-        public IReadOnlyCollection<Delivery> Deliveries { get; private set; }
+        public IReadOnlyCollection<Delivery> Deliveries => _deliveries.ToArray();
 
         //metodos
         //unico metodo que irá adicionar um pedido
@@ -59,7 +59,7 @@ namespace MascarenhasStore.Domain.StoreContext.Entities
         public void Ship() {
             //a cada 5 produtos é uma entrega
             var deliveries = new List<Delivery>();
-            deliveries.Add(new Delivery(DateTime.Now.AddDays(5)));
+            //deliveries.Add(new Delivery(DateTime.Now.AddDays(5))); //teste ja para iniciar com uma entrega
             var count = 1;
 
             //a cada 5 produtos quebra as entregas
@@ -74,10 +74,6 @@ namespace MascarenhasStore.Domain.StoreContext.Entities
             deliveries.ForEach(x => x.Ship());
             //adiciona as entregas ao pedido
             deliveries.ForEach(x => _deliveries.Add(x));
-
-
-            var delivery = new Delivery(DateTime.Now.AddDays(5));
-            _deliveries.Add(delivery);
         }
         //cancelar um pedido
         public void Cancel() {

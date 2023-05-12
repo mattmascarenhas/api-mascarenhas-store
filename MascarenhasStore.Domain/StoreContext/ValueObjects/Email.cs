@@ -11,11 +11,12 @@ namespace MascarenhasStore.Domain.StoreContext.ValueObjects {
         public Email(string address) {
             Address = address;
 
-            //teste de validacao se é email
-            AddNotifications(new ValidationContract()
-                 .Requires()
-                 .IsEmail(Address, "Email", "Email inválido")
-                 .HasMaxLen(Address, 80, "Email", "O Email deve conter no máximo 80 caracteres"));
+            ////Validaçao aqui nao necessaria, pois esta sendo usado o FastFailValidator
+            ////teste de validacao se é email
+            //AddNotifications(new ValidationContract()
+            //     .Requires()
+            //     .IsEmail(Address, "Email", "Email inválido")
+            //     .HasMaxLen(Address, 80, "Email", "O Email deve conter no máximo 80 caracteres"));
         }
 
         public string Address { get; private set; }
