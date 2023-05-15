@@ -11,9 +11,8 @@ namespace MascarenhasStore.Domain.StoreContext.ValueObjects {
         public Document(string number) {
             Number = number;
 
-            ////Validaçao aqui nao necessaria, pois esta sendo usado o FastFailValidator
-            //AddNotifications(new ValidationContract()
-            //    .IsTrue(Validate(number), "Document", "CPF inválido"));
+            AddNotifications(new ValidationContract()
+                .IsTrue(Validate(number), "Document", "CPF inválido"));
         }
 
         public string Number { get; private set; }

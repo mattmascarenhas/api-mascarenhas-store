@@ -38,7 +38,8 @@
 //ele adiciona as notificacoes
 
 	PM> NuGet\Install-Package FluentValidator -Version 2.0.2
-
+		ou	
+	dotnet add package FluentValidator --version 2.0.2
 
 //quando for usar o folder.Shared, nao esquecer de referenciar
 	

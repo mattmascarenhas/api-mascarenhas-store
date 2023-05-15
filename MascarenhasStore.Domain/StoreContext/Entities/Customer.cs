@@ -1,11 +1,12 @@
 ﻿using FluentValidator;
 using MascarenhasStore.Domain.StoreContext.ValueObjects;
+using MascarenhasStore.Shared.Entities;
 using System;
 
 namespace MascarenhasStore.Domain.StoreContext.Entities
 {
 
-    public class Customer : Notifiable {
+    public class Customer : Entity {
         private readonly IList<Address> _addresses;
         public Customer(Name name, Document document, Email email, string phone){
             this.Name = name;

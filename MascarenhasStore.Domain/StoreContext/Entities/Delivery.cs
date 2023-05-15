@@ -1,5 +1,6 @@
 ﻿using FluentValidator;
 using MascarenhasStore.Domain.StoreContext.Enum;
+using MascarenhasStore.Shared.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace MascarenhasStore.Domain.StoreContext.Entities {
-    public class Delivery : Notifiable {
+    public class Delivery : Entity {
         public Delivery(DateTime estimatedDeliveryDate) {
             CreatedDate = DateTime.Now;
             EstimatedDeliveryDate = estimatedDeliveryDate;

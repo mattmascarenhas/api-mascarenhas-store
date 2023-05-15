@@ -1,4 +1,5 @@
 ﻿using FluentValidator;
+using MascarenhasStore.Shared.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MascarenhasStore.Domain.StoreContext.Entities
 {
-    public class Product : Notifiable {
+    public class Product : Entity {
         public Product(string title, string description, string image, decimal price, decimal quantity){
             Title = title;
             Descríption = description;

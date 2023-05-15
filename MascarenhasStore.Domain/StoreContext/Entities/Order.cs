@@ -1,5 +1,6 @@
 ﻿using FluentValidator;
 using MascarenhasStore.Domain.StoreContext.Enum;
+using MascarenhasStore.Shared.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace MascarenhasStore.Domain.StoreContext.Entities
 {
-    public class Order : Notifiable {
+    public class Order : Entity {
         private readonly IList<OrderItem> _items;
         private readonly IList<Delivery> _deliveries;
 

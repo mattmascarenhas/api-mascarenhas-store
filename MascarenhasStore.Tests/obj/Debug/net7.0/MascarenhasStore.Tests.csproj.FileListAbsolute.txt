@@ -101,3 +101,5 @@ D:\CSharp\MascarenhasStore\MascarenhasStore.Tests\bin\Debug\net7.0\CoverletSourc
 D:\CSharp\MascarenhasStore\MascarenhasStore.Tests\bin\Debug\net7.0\FluentValidator.dll
 D:\CSharp\MascarenhasStore\MascarenhasStore.Tests\bin\Debug\net7.0\MascarenhasStore.Domain.dll
 D:\CSharp\MascarenhasStore\MascarenhasStore.Tests\bin\Debug\net7.0\MascarenhasStore.Domain.pdb
+D:\CSharp\MascarenhasStore\MascarenhasStore.Tests\bin\Debug\net7.0\MascarenhasStore.Shared.dll
+D:\CSharp\MascarenhasStore\MascarenhasStore.Tests\bin\Debug\net7.0\MascarenhasStore.Shared.pdb

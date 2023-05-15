@@ -27,7 +27,7 @@ namespace MascarenhasStore.Domain.StoreContext.Commands.OrderCommands.Inputs {
                  .IsGreaterThan(OrderItems.Count, 0, "Items", "Nenhum item do pedido foi encontrado")
            );
 
-            return Valid();
+            return IsValid;
         }
     }
     public class OrderItemCommand {

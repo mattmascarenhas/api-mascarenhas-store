@@ -1,14 +1,7 @@
 ﻿using FluentValidator;
 using FluentValidator.Validation;
-using MascarenhasStore.Domain.StoreContext.Entities;
-using MascarenhasStore.Domain.StoreContext.ValueObjects;
 using MascarenhasStore.Shared.Commands;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+
 
 namespace MascarenhasStore.Domain.StoreContext.Commands.CustomerCommands.Inputs {
     public class CreateCustomerCommand : Notifiable, ICommand {
@@ -32,7 +25,7 @@ namespace MascarenhasStore.Domain.StoreContext.Commands.CustomerCommands.Inputs 
                  .HasLen(Document, 11, "Document", "CPF inválido")
            );
 
-            return Valid();
+            return IsValid;
         }
     }
 }

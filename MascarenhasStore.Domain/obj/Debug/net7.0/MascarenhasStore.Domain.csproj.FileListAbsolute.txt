@@ -10,3 +10,6 @@ D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\MascarenhasS
 D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\refint\MascarenhasStore.Domain.dll
 D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\MascarenhasStore.Domain.pdb
 D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\ref\MascarenhasStore.Domain.dll
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\bin\Debug\net7.0\MascarenhasStore.Shared.dll
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\bin\Debug\net7.0\MascarenhasStore.Shared.pdb
+D:\CSharp\MascarenhasStore\MascarenhasStore.Domain\obj\Debug\net7.0\MascarenhasStore.Domain.csproj.CopyComplete

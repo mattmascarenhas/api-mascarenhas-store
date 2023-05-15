@@ -1299,6 +1299,9 @@
       "MascarenhasStore.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
         "compile": {
           "bin/placeholder/MascarenhasStore.Shared.dll": {}
         },

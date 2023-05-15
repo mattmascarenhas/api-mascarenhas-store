@@ -1,8 +1,8 @@
 ﻿using FluentValidator;
-
+using MascarenhasStore.Shared.Entities;
 
 namespace MascarenhasStore.Domain.StoreContext.Entities {
-    public class OrderItem: Notifiable {
+    public class OrderItem: Entity {
         public OrderItem(Product product, decimal quantity) {
             Product = product;
             Quantity = quantity;

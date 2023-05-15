@@ -1014,10 +1014,19 @@
       },
       "MascarenhasStore.Domain/1.0.0": {
         "dependencies": {
-          "FluentValidator": "2.0.2"
+          "FluentValidator": "2.0.2",
+          "MascarenhasStore.Shared": "1.0.0"
         },
         "runtime": {
           "MascarenhasStore.Domain.dll": {}
+        }
+      },
+      "MascarenhasStore.Shared/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
+        "runtime": {
+          "MascarenhasStore.Shared.dll": {}
         }
       },
       "Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions/14.0.0.0": {
@@ -1639,6 +1648,11 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "MascarenhasStore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MascarenhasStore.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
