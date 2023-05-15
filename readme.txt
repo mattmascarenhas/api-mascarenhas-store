@@ -1,3 +1,8 @@
+//IMPORTANTE
+***Lá pro final da aplicação, ao fazer os testes, deve-se usar abstração, pois iremos testar sem o uso de banco de dados***
+***O folder.shared compartilha algumas interfaces comum entre todos, ajudando na abstração e facilitando os testes***
+***Iremos usar interfaces ao invés de implementar, assim definiremos apenas a regra***
+
 //criacao das pastas da api, essa a maneira mais organizada
 
 	folder.api -> dotnet new web
@@ -44,3 +49,9 @@
 //quando for usar o folder.Shared, nao esquecer de referenciar
 	
 	folder.domain -> dotnet add reference ..\MascarenhasStore.Domain\MascarenhasStore.Shared.csproj
+
+// ir em folder.infra e instalar o dapper, pois é la que vamos interagir com o Banco de dados
+	
+	folder.infra -> dotnet add package Dapper
+
+

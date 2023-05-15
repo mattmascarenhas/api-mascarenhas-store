@@ -5810,6 +5810,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "FluentValidator >= 2.0.2",
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
       "MascarenhasStore.Domain >= 1.0.0",
@@ -5860,6 +5861,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "FluentValidator": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
           "MSTest.TestAdapter": {
             "target": "Package",
             "version": "[2.2.10, )"
