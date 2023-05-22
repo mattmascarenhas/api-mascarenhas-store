@@ -1445,6 +1445,20 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "MascarenhasStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "FluentValidator": "2.0.2",
+          "MascarenhasStore.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MascarenhasStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MascarenhasStore.Domain.dll": {}
+        }
+      },
       "MascarenhasStore.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -5058,6 +5072,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "MascarenhasStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MascarenhasStore.Domain/MascarenhasStore.Domain.csproj",
+      "msbuildProject": "../MascarenhasStore.Domain/MascarenhasStore.Domain.csproj"
+    },
     "MascarenhasStore.Shared/1.0.0": {
       "type": "project",
       "path": "../MascarenhasStore.Shared/MascarenhasStore.Shared.csproj",
@@ -5067,6 +5086,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Dapper >= 2.0.123",
+      "MascarenhasStore.Domain >= 1.0.0",
       "MascarenhasStore.Shared >= 1.0.0",
       "System.Data.SqlClient >= 4.8.5"
     ]
@@ -5098,6 +5118,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\CSharp\\MascarenhasStore\\MascarenhasStore.Domain\\MascarenhasStore.Domain.csproj": {
+              "projectPath": "D:\\CSharp\\MascarenhasStore\\MascarenhasStore.Domain\\MascarenhasStore.Domain.csproj"
+            },
             "D:\\CSharp\\MascarenhasStore\\MascarenhasStore.Shared\\MascarenhasStore.Shared.csproj": {
               "projectPath": "D:\\CSharp\\MascarenhasStore\\MascarenhasStore.Shared\\MascarenhasStore.Shared.csproj"
             }

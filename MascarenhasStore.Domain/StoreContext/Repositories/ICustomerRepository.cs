@@ -1,4 +1,5 @@
 ﻿using MascarenhasStore.Domain.StoreContext.Entities;
+using MascarenhasStore.Domain.StoreContext.Queries;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,9 @@ namespace MascarenhasStore.Domain.StoreContext.Repositories {
         bool CheckDocument(string document);
         bool CheckEmail(string email);
         void Save(Customer customer);
-
+        CustomerOrdersCountResult GetCustomerOrdersCount(string document);
+        IEnumerable<ListCustomerQueryResult> Get();
+        GetCustomerQueryResult Get(Guid id);
+        IEnumerable<ListCustomerOrdersQueryResult> GetOrders(Guid id);
     }
 }

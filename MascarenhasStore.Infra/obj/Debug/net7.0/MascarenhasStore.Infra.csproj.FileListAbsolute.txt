@@ -10,3 +10,8 @@ D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\MascarenhasSt
 D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\refint\MascarenhasStore.Infra.dll
 D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\MascarenhasStore.Infra.pdb
 D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\ref\MascarenhasStore.Infra.dll
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\bin\Debug\net7.0\MascarenhasStore.Domain.dll
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\bin\Debug\net7.0\MascarenhasStore.Shared.dll
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\bin\Debug\net7.0\MascarenhasStore.Domain.pdb
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\bin\Debug\net7.0\MascarenhasStore.Shared.pdb
+D:\CSharp\MascarenhasStore\MascarenhasStore.Infra\obj\Debug\net7.0\MascarenhasStore.Infra.csproj.CopyComplete

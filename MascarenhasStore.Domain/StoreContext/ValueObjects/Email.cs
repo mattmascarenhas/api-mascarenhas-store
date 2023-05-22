@@ -25,3 +25,4 @@ namespace MascarenhasStore.Domain.StoreContext.ValueObjects {
         }
     }
 }
+ 

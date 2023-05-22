@@ -4,16 +4,27 @@ using MascarenhasStore.Shared.Commands;
 
 
 namespace MascarenhasStore.Domain.StoreContext.Commands.CustomerCommands.Inputs {
-    public class CreateCustomerCommand : Notifiable, ICommand {
-        //FailFastValidation -> fazer todas as verificacoes no banco com o minimo de consultas possiveis
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string Document { get; set; }
-        public string Email { get; set; }
-        public string Phone { get; set; }
+    public class UpdateCustomerCommand : Notifiable, ICommand {
+        public Guid Id {
+            get; set;
+        }
+        public string FirstName {
+            get; set;
+        }
+        public string LastName {
+            get; set;
+        }
+        public string Document {
+            get; set;
+        }
+        public string Email {
+            get; set;
+        }
+        public string Phone {
+            get; set;
+        }
 
         public bool Valid() {
-            //teste de validacao
             AddNotifications(new ValidationContract()
                  .Requires()
                  .HasMinLen(FirstName, 3, "FirstName", "O Nome deve conter pelo menos 3 caracteres")
@@ -28,4 +39,5 @@ namespace MascarenhasStore.Domain.StoreContext.Commands.CustomerCommands.Inputs 
             return IsValid;
         }
     }
+
 }

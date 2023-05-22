@@ -46,12 +46,30 @@
 		ou	
 	dotnet add package FluentValidator --version 2.0.2
 
-//quando for usar o folder.Shared, nao esquecer de referenciar
+//instalar tambem o fluent validator na api
+
+	PM> NuGet\Install-Package FluentValidator -Version 2.0.2
+		ou	
+	dotnet add package FluentValidator --version 2.0.2
+
+
+//referenciar o que for utilizado no domain
 	
 	folder.domain -> dotnet add reference ..\MascarenhasStore.Domain\MascarenhasStore.Shared.csproj
+
+	
+//referenciar o que for utlizador na api
+
+	folder.api -> dotnet add reference ..\MascarenhasStore.Domain\MascarenhasStore.Shared.csproj
+	folder.api -> dotnet add reference ..\MascarenhasStore.Domain\MascarenhasStore.Domain.csproj
+	folder.api -> dotnet add reference ..\MascarenhasStore.Infra\MascarenhasStore.Infra.csproj
+
 
 // ir em folder.infra e instalar o dapper, pois é la que vamos interagir com o Banco de dados
 	
 	folder.infra -> dotnet add package Dapper
 
+//na api instalar o Microsoft.AspNetCore na api
+
+	folder.api -> dotnet add package Microsoft.AspNetCore
 

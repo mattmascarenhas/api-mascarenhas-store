@@ -59,6 +59,46 @@ namespace MascarenhasStore.Domain.StoreContext.Handlers {
             return new CreateCustomerCommandResult(customer.Id, name.ToString(), email.Address);
         }
 
+        public ICommandResult Handle(UpdateCustomerCommand command) {
+            // Busca o cliente pelo ID no repositório
+            var customer = _repository.GetById(command.Id);
+
+            // Verifica se o cliente existe
+            if (customer == null) {
+                AddNotification("Id", "Cliente não encontrado");
+                return null;
+            }
+
+            // Verifica se o CPF já está sendo usado por outro cliente
+            if (_repository.CheckDocumentForUpdate(command.Document, customer.Id))
+                AddNotification("Document", "Este CPF já está em uso por outro cliente");
+
+            // Verifica se o email já está sendo usado por outro cliente
+            if (_repository.CheckEmailForUpdate(command.Email, customer.Id))
+                AddNotification("Email", "Este E-mail já está em uso por outro cliente");
+
+            // Atualiza as propriedades do cliente com base nos dados do comando
+            customer.Name.Update(command.FirstName, command.LastName);
+            customer.Document.Update(command.Document);
+            customer.Email.Update(command.Email);
+            customer.Phone = command.Phone;
+
+            // Valida as entidades e Value Objects atualizados
+            AddNotifications(customer.Name.Notifications);
+            AddNotifications(customer.Document.Notifications);
+            AddNotifications(customer.Email.Notifications);
+            AddNotifications(customer.Notifications);
+
+            if (Invalid)
+                return null;
+
+            // Atualiza o cliente no banco de dados
+            _repository.Update(customer);
+
+            return new UpdateCustomerCommandResult(customer.Id, customer.Name.ToString(), customer.Email.Address);
+        }
+
+
         public ICommandResult Handle(AddAddressCommand command) {
             throw new NotImplementedException();
         }
